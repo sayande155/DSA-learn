@@ -8,7 +8,7 @@ public class ValidParenthesis {
         Stack<Character> st = new Stack<>();
         char ip[] = input.toCharArray();
         for (int i = 0; i < ip.length; i++) {
-            // when array is empty
+            // when stack is empty
             if (st.isEmpty()) {
                 st.push(ip[i]);
                 continue;
